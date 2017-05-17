@@ -1,0 +1,40 @@
+.ComponentBar{
+    .row{
+        margin-top:10px;
+        margin-bottom:15px;
+        &::after{
+            content:'';
+            display:block;
+            clear:both;
+            height:0px;
+        }
+        .name{
+            float:left;
+            width:80px;
+            text-align: center;
+            height:20px;
+            line-height:20px;
+        }
+        .loadBorder{
+            float:left;
+            height:20px;
+            margin-left:5px;
+            .loadContent{
+                width:0%;
+                height:20px;
+                transition:width 2s ease 1.5s;
+            }
+        }
+        .percent{
+            float:left;
+            height:20px;
+            margin-left:5px;
+        }
+    }
+}
+.cpload .row .loadBorder .loadContent{
+    width:100%;
+}
+.cpleave .row .loadBorder .loadContent{
+    width:0%;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "duyi",
+  "version": "1.0.0",
+  "description": "a duyi app page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --devtool source-map"
+  },
+  "author": "kong",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "jquery": "^3.2.1",
+    "less-loader": "^4.0.3",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "style-loader": "^0.16.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
